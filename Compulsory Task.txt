@@ -1,0 +1,43 @@
+1. Define each of the following terms:
+
+-Data - Is raw facts, it has little meaning unless it is in context or arranged in a certain way. 
+
+-Field - Is when the data is put into context. A field holds data for the purpose of giving it meaning.
+
+-Record - A record is a connected set of fields, for example, the record for a single customer contains Name, Address, and Phone Number
+
+-File - A file is a collection of records. For example we can have a record for Brendan and a record for Daniel, which will make up our file.
+
+===================
+
+2. What is a DBMS and what are its advantages?
+
+A DBMS is a Database Management System. It is used to manage data in a complex way to ensure it meets the needs of the user, no matter what they need the data for.
+
+The advantages are:
+Improved data sharing
+Better Data Integration
+Minimised data inconsistency
+Improved data access
+Improved decision making
+Increased end user productivity
+
+=====================
+
+3. Explain the difference between data and information.
+
+Data refers to raw facts, it doesn't mean much until it is put into context.
+Once data is put into context, or processed to reveal it's meaning, it is refferred to as information.
+Information can be used in decision making and in order to make predictions
+
+===================
+
+4. What is metadata?
+
+Metadata is data about data. It tells you how bits of information are stored and what they mean. It describes the data characteristics and the set of relationships that link the data.
+
+=====================
+
+5.  Given the file below, answer the following questions:
+-How many records does the file contain? - 4
+-How many fields are there per record? - 5

@@ -1,0 +1,39 @@
+1. What is an interface in Java?
+
+In the Java programming language, an interface is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types.
+
+An interface can be thought of as a contract, where the class implementing it has to implement the methods outlined in the interface.
+
+---------------------------------------------------------
+2. What is the difference between abstract class and interface?
+
+A class can only extend one Abstract Class, while it can implement as many Interfaces as needed.
+All methods in an interface are implicitly public. 
+An abstract class is used when there are some common features to be shared by all objects.
+An interface is used when all the features are to be implemented differently.
+
+---------------------------------------------------------
+3. What must a class do to in order to implement an interface?
+
+It needs to include an implements clause in the class declaration.
+As well as to implement all abstract methods contained in the interface.
+
+-------------------------------------------------------------
+4. What is abstract method?
+
+An abstract method is a method that is declared without an inplementation.
+
+-----------------------------------------------------------------
+5. Can you instantiate an interface?
+
+No, but a reference variable of type interface can be created. Any object assigned to it must be an instance of a class that implements it.
+
+-------------------------------------------------------------------
+6. Can you declare constructor inside an interface? If not why?
+
+No you can't. A constructor is a method that is called when an object is instantiated. We can't instantiate an inerface and therefore there is no use for a constructor.
+
+------------------------------------------------------------------
+7. Can we override an interface method with visibility that is not public?
+
+No we can't. We will receive a compiler error advising that we cannot reduce the visibility. 

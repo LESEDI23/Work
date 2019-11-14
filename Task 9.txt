@@ -1,0 +1,46 @@
+-In this task, the quick sort algorithm selects the first element in the list as the pivot. Revise it by selecting the median among the first, middle, and last elements in the list.
+
+We need to write a method that will find the median of the first, middle and last elements. We can do this by passing the array to the method. We create a sub array of size 3 inside the method, which will hold the first, middle and last element. We then need to sort the sub array and return element [1].
+
+This is what we shall now use as the pivot.
+
+----------------------------------------------------
+-Write the algorithm for searching for entries using linear probing.
+
+public static int linearHashFind (key){
+	
+	int i = 0; #a variable to store the current index of the hashtable
+	int n = hashTable.length(); #set n equal to the amount of elements in the hastable
+	int hashCode = key.hashCode(); #set an integer equal to the hashcode of the key
+	while ( (hashTable[(hashCode+i)%n]) != key  #iterate through the hashtable until an empty element is found
+	|| hashTable[(hashCode +i)%n != empty ) {
+		
+		i++ # increase the index until an empty element is found
+	}
+	if (hashTable[(hashCode +i)%n].isEmpty(){
+		return -1; #if the key does not exist in the hashtable, return -1
+	}
+	else {
+	return hashTable[(hashCode +i)%n] #else return the index that the key can be found
+	}
+	
+}
+
+-------------------------------------------------------
+-Write the algorithm for removing entries using linear probing.
+
+public static void linearHashRemove(key) {
+
+	int i = 0; #Create a variable to keep track of the current index
+	int n = hashTable.length(); #Create a variable to store the amount of elements in the hashtable
+	int hashCode = key.hashCode(); #set an integer = to the hashcode of the key
+	while ( (hashTable[(hashCode+i)%n]) != key  #Iterate through the hashtable until the key is found
+	|| hashTable[(hashCode +i)%n != empty ) {
+		
+		i++
+	}
+	if (hashTable[(hashCode +i)%n].containsKey(key){
+		hashTable[(hashCode +i)%n] = "marked"; #if the element at the index is found, update the element to marked (so we know that this element previously contained a value)
+		
+	}
+}

@@ -1,0 +1,21 @@
+1. O(n)
+
+2. O(n)
+
+3. O(n^2)
+
+4. O(n^3)
+
+5.1 O(n^2)
+5.2 O(n^3)
+5.3 O(n^3)
+5.4 O(n)
+5.5 O(log2n)
+5.6 O(nlog2n)
+
+For 5.6. Am i correct in saying the following:
+we start with: 
+4nlog2n + 3n + 8
+
+we drop the constants and are left with
+nlog2n
